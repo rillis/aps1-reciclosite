@@ -14,7 +14,7 @@
 }
 
 .navbar-brand {
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 .navbar-nav a{
@@ -53,14 +53,14 @@
 	max-width: 990px;
 	text-align: center;
 	color: #5a3921;
-	padding: 20px;	
+	padding: 20px;
 }
 
 .text p {
 	max-width: 990px;
 	text-align: center;
 	color: #5a3921;
-	padding: 20px;	
+	padding: 20px;
 	font-size: 18px;
 }
 
@@ -118,4 +118,19 @@
 	left: 0px;
 	line-height: 90px;
 	text-align: center;
+}
+
+.navbar a:hover{
+  color: #bdf774;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.banner {
+	height:50vh;
+
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
